@@ -12,9 +12,6 @@ def app():
 
     # Add title
     st.title("Welcome to the about me page")
-    
-    # Add Contact Details
-    st.header('Contact Us')
 
     # Add email
     st.markdown('''### Name:
