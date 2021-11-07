@@ -14,7 +14,7 @@ def app():
     st.write("Welcome to the Prediction Page")
 
     # Create a method to take text input from a user
-    Email = st.text_input("Enter the TEXT:")
+    Email = st.text_input("Enter Emain Text:")
     Listed_Email = [Email]
     
     CV = joblib.load("From Scratch/CountVectorizer")
